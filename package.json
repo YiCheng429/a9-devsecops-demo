@@ -1,0 +1,24 @@
+{
+  "name": "a9-devsecops-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DevOps A9 DevSecOps demo (throwaway, never deploy). Intentionally pins old vulnerable dependencies.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "eslint .",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.15",
+    "minimist": "1.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "eslint-plugin-security": "^4.2.1",
+    "globals": "^17.14.0"
+  },
+  "license": "MIT"
+}
